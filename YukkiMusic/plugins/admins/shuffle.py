@@ -11,7 +11,7 @@ import random
 
 from pyrogram import filters
 from pyrogram.types import Message
-
+from strings.filters import command
 from config import BANNED_USERS
 from strings import get_command
 from YukkiMusic import app
@@ -23,7 +23,7 @@ SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")
 
 
 @app.on_message(
-    filters.command(SHUFFLE_COMMAND)
+    command(SHUFFLE_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
