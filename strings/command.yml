@@ -21,14 +21,14 @@ STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
-PLAYMODE_COMMAND : ["playmode"]
-CHANNELPLAY_COMMAND : ["channelplay"]
-STREAM_COMMAND : ["stream", "cstream", "streamforce"]
+PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce", "شغل", "ق شغل", "فيديو", "ق تشغيل", "/play", "/vplay", "cplay", "cvplay", "/شغل", "/تشغيل", "/ق تشغيل", "/ق شغل", "/فيديو", "تشغيل"]
+PLAYMODE_COMMAND : ["playmode", "/وضع شغل", "وضع شغل", "/playmode"]
+CHANNELPLAY_COMMAND : ["channelplay", "وضع قناه"]
+STREAM_COMMAND : ["stream", "cstream", "streamforce", "لايف", "ق لايف"]
 
 #Playlists Command
-PLAYLIST_COMMAND : ["playlist"]
-DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
+PLAYLIST_COMMAND : ["playlist", "القائمه"]
+DELETEPLAYLIST_COMMAND : ["deleteplaylist", "حذف القائمه"]
 
 
 # Tools
@@ -41,12 +41,12 @@ LYRICS_COMMAND : ["lyrics"]
 AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
+PAUSE_COMMAND : ["pause", "cpause", "وقف", "ق وقف", "/pause", "/cpause", "/وقف", "/ق وقف"]
+RESUME_COMMAND : ["resume", "cresume", "كمل", "ق كمل", "/resume", "/cresume", "/ق كمل", "كمل"]
+MUTE_COMMAND : ["mute", "cmute", "اسكت", "ق اسكت", "/mute", "/cmute", "/اسكت", "/ق اسكت"]
+UNMUTE_COMMAND : ["unmute", "cunmute", "اتكلم", "ق اتكلم", "/unmute", "/cunmute", "/اتكلم", "/ق اتكلم"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend", "ايقاف", "انهاء", "ق ايقاف", "ق انهاء", "/يقاف", "/انهاء", "/end", "/stop", "/ق ايقاف", "/ق انهاء", "/cend", "/cstop"]
+SKIP_COMMAND : ["skip", "cskip", "تخطي", "ق تخطي", "/skip", "/cskip", "/تخطي", "/ق تخطي"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
@@ -85,7 +85,7 @@ VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update"]
+UPDATE_COMMAND : ["update", "تحديث"]
 REBOOT_COMMAND : ["reboot"]
 AUTOEND_COMMAND : ["autoend"]
 
