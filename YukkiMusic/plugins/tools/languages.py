@@ -25,8 +25,8 @@ def lanuages_keyboard(_):
     keyboard = InlineKeyboard(row_width=2)
     keyboard.row(
         InlineKeyboardButton(
-            text="🏴󠁧󠁢󠁥󠁮󠁧󠁿 English",
-            callback_data=f"languages:en",
+            text="🏴󠁧󠁢󠁥󠁮󠁧󠁿 arabic",
+            callback_data=f"languages:ar",
         ),
         InlineKeyboardButton(
             text="🇮🇳 हिन्दी",
