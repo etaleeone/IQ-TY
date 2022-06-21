@@ -1,7 +1,7 @@
 {
     "name": "Marlen Music Bot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/02ff5eed4dc2a34cbc1f7.jpg",
+    "logo": "https://telegra.ph/file/b974b7f411766b46b7712.jpg",
     "keywords": [
     "python3",
     "telegram",
